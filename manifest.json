@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Tunnel Pass",
+  "version": "1.0",
+  "description": "Bypass *.loca.lt login",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": ["*://*.loca.lt/*"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
